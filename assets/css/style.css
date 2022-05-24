@@ -1,0 +1,1289 @@
+.boxed {
+    background-color: lightgrey;
+    width: 1000px; 
+    padding: 30px;
+    margin: 30px;
+    font-size: larger;
+    position: 100%;
+    right:300px; 
+    display:flex;
+    height:100%;
+    margin-left:10%;
+    
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+nav{
+display: flex;
+height: 80px;
+width: 100%;
+background: rgb(56, 7, 102);
+align-items: center;
+justify-content: space-between;
+padding: 0 50px 0 100px;
+flex-wrap: wrap;
+}
+nav ul{
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+}
+nav ul li{
+margin: 0 5px;
+}
+nav ul li a{
+color: #e4b85b;
+text-decoration: none;
+font-size: 18px;
+font-weight: 500;
+padding: 8px 15px;
+border-radius: 5px;
+letter-spacing: 1px;
+transition: all 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover{
+color: rgb(56, 7, 102);
+background: #e4b85b;
+}
+nav .menu-btn i{
+color: #e4b85b;
+font-size: 22px;
+cursor: pointer;
+display: none;
+}
+input[type="checkbox"]{
+display: none;
+}
+
+ .Firstboxed{
+    background-color: lightgrey;
+    width: 1000px;
+    padding: 30px;
+    margin: 30px;
+    font-size: larger;
+    position: 100%;
+    right:300px;
+    display:flex;
+    height:100%;
+    margin-top:100px;
+    margin-left:10%;
+ 
+  }
+ 
+ 
+header {
+    background-color: rgb(56, 7, 102);
+  }
+body
+{
+ margin:auto;
+ text-align:center;
+ width:100%;
+ font-family: Lato, Helvetica, Arial, sans-serif;
+ background-color:#e4b85b;
+ align-items: center;
+ 
+ 
+}
+#myBio{
+  color:rgb(56, 7, 102)
+}
+#header
+{
+ width:100%;
+ margin-top:-15px;
+ padding:0px;
+ text-align:center;
+ height:70px;
+ line-height:70px;
+}
+/* #header li
+{
+ display:inline-block;
+ margin-right:50px;
+ font-size:17px;
+ color:#e4b85b;
+ font-weight:bold;
+ cursor:pointer;
+ 
+} */
+ 
+img[src*='bio'] {
+    height: 300px;
+    width: 300px;
+    float:left;
+    top: 100px;
+    text-size-adjust: 100%;
+    visibility: visible;
+    box-sizing: border-box;
+    border-width: 0px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    line-height: 1;
+  }
+ 
+  .boxImage{
+      width:40%;
+  }
+.boxText{
+    width:750px;
+    height:300px;
+    line-height: 1.58;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    align-content: space-between;
+    margin-top: 10%;
+}
+.biography.absolute {
+    position: absolute;
+    right: 150px;
+    width: 200px;
+    height: 120px;
+    inline-size: 150px;
+    overflow-wrap: break-all;
+    position:end;
+    text-align:justify;
+   
+   
+}
+ 
+.cardBlock{
+text-size-adjust: 100%;
+-webkit-tap-highlight-color: transparent;
+font-family: Lato, Helvetica, Arial, sans-serif;
+font-size: 16px;
+line-height: 1.58;
+color: rgb(85, 85, 85);
+visibility: visible;
+box-sizing: border-box;
+padding: 4rem;
+}
+ 
+h2{text-size-adjust: 100%;
+-webkit-tap-highlight-color: transparent;
+visibility: visible;
+box-sizing: border-box;
+font-family: Lato, Helvetica, Arial, sans-serif;
+font-weight: 400;
+line-height: 1.1;
+color: rgb(56, 7, 102);
+font-size: 27px;
+margin-top: 0px;
+margin-bottom: 40px;
+text-decoration-color: rgb(193, 221, 35);
+ 
+ 
+}
+ 
+h4{text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  visibility: visible;
+  box-sizing: border-box;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.1;
+  color: rgb(56, 7, 102);
+  font-size: 27px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  text-decoration-color: rgb(193, 221, 35);
+}
+.row{
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.58;
+    color:rgb(56, 7, 102);
+    visibility: visible;
+    box-sizing: border-box;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+ 
+.column{
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.58;
+    color: rgb(56, 7, 102);
+    visibility: visible;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+ 
+.education-experience{
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.58;
+    color: rgb(12, 12, 12);
+    visibility: visible;
+    box-sizing: border-box;
+}
+.date{
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    line-height: 1.58;
+    color: rgb(12, 12, 12);
+    visibility: visible;
+    box-sizing: border-box;
+    font-size: 87%;
+}
+ 
+.school-name{
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    visibility: visible;
+    box-sizing: border-box;
+    line-height: 1.1;
+    color: rgb(12, 12, 12);
+    font-size: 18px;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+ 
+ 
+.description{
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.58;
+    color: rgb(12, 12, 12);
+    visibility: visible;
+    box-sizing: border-box;
+    display: flex;
+}
+ 
+figcaption{
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  color: black;
+ 
+}
+.text{
+  margin-left: 100px;
+  margin-top: 2%;
+  line-height: 1.58;
+}
+.text1{
+  margin-right: 100px;
+  margin-top: 2%;
+  line-height: 1.58;
+}
+ 
+img[src*='project1'] {
+  height: 300px;
+  width: 300px;
+  top: 100px;
+  text-size-adjust: 100%;
+  visibility: visible;
+  box-sizing: border-box;
+  border-width: 0px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  line-height: 1;
+ 
+}
+img[src*='project2'] {
+  height: 300px;
+  width: 300px;
+  top: 100px;
+  text-size-adjust: 100%;
+  visibility: visible;
+  box-sizing: border-box;
+  border-width: 0px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  line-height: 1;
+  margin-left: 120px;
+  margin-top: -2%;
+}
+.project-align{
+  display: flex;
+}
+ 
+ 
+.extra-flow{
+  display: flex;
+  line-height: 1.58;
+}
+ 
+ table, th, td {
+    border: 1px solid;
+    color:rgb(8, 8, 8);
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    height: 50px;
+    width: 800px;
+  }
+ 
+.extra-photos{
+    height:200px;
+    width: 200px;
+}
+ 
+.form{
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(85, 85, 85);
+    visibility: visible;
+    box-sizing: border-box;
+    align-items: center;
+}
+ 
+input[type="text"] {
+    width: 800px;
+    height: 30px;
+}
+ 
+textarea{
+    width: 800px;
+    height: 200px;
+}
+.btn{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    visibility: visible;
+    box-sizing: border-box;
+    font: inherit;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    font-family: inherit;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 50px;
+    user-select: none;
+    line-height: 1.428571429;
+    border: none;
+    transition: all .1s linear;
+    background-size: 200% auto;
+    text-decoration: none;
+    color: #fff;
+    background-color:#e4b85b;
+    border-color: rgb(56, 7, 102);
+    background-image: linear-gradient(rgb(56, 7, 102));
+    background-repeat: repeat-x;
+    background-position: 50%;
+}
+ 
+ 
+footer{
+    height:100px;
+}
+ 
+.quote {
+    color:rgb(5, 5, 5);
+    width:350px;
+    text-align: center;
+    margin:auto;
+    animation-duration: 1s;
+    animation-name: type;
+ 
+  }
+ 
+ 
+  @keyframes type {
+    from {
+      width: 100%;
+    }
+ 
+    50% {
+      font-size: 100%;
+ 
+      width: 100%;
+    }
+ 
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+ 
+
+  
+ 
+
+@media screen and (max-width: 564px) {  
+    .boxed {
+      background-color: lightgrey;
+      width: 290px;
+      height:100px;
+      padding: 30px;
+      margin: 30px;
+      font-size: larger;
+      position: 100%;
+      right:300px;
+      display:flex;
+      height:100%;
+      margin-top:100px;
+      margin-left:35%;
+    }
+   
+ 
+    #myBio{
+        color:rgb(56, 7, 102);
+        font-size:10px;
+     
+    }
+ 
+    .Firstboxed{
+      background-color: lightgrey;
+      width: 320px;
+      padding: 30px;
+      margin: 30px;
+      font-size: larger;
+      position: 100%;
+      right:300px;
+      display:flex;
+      height:100%;
+      margin-top:100px;
+      margin-left:10%;
+ 
+    }
+    #header
+    {
+    width:50%;
+    margin-top:-15px;
+    padding:0px;
+    text-align:center;
+    height:30px;
+    line-height:30px;
+    }
+    img[src*='bio'] {
+      height: 100px;
+      width: 100px;
+      float:right;
+      top: 100px;
+      text-size-adjust: 100%;
+      visibility: visible;
+      box-sizing: border-box;
+      border-width: 0px;
+      display: flex;
+      max-width: 100%;
+      height: auto;
+      line-height: 1;
+      margin-left: 200px;
+    }
+ 
+    .boxImage{
+        width:20%;
+    }
+  .boxText{
+      width:400px;
+      height:50px;
+      line-height: 1.3;
+      font-family: Lato, Helvetica, Arial, sans-serif;
+      font-size: 8px;
+      align-content: space-between;
+      margin-top: -5%;
+    }
+  .cardBlock{
+    text-size-adjust: 50%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    line-height: 1;
+    color: rgb(85, 85, 85);
+    visibility: visible;
+    box-sizing: border-box;
+    padding: 4rem;
+    height:100px,
+    }  
+ 
+    .education-experience{
+      text-size-adjust: 100%;
+      -webkit-tap-highlight-color: transparent;
+      font-family: Lato, Helvetica, Arial, sans-serif;
+      font-size: 10px;
+      line-height: 1.58;
+      color: rgb(12, 12, 12);
+      visibility: visible;
+      box-sizing: border-box;
+  }
+  .date{
+      text-size-adjust: 100%;
+      -webkit-tap-highlight-color: transparent;
+      font-family: Lato, Helvetica, Arial, sans-serif;
+      line-height: 1.58;
+      color: rgb(12, 12, 12);
+      visibility: visible;
+      box-sizing: border-box;
+      font-size: 16;
+  }
+ 
+  .school-name{
+      text-size-adjust: 100%;
+      -webkit-tap-highlight-color: transparent;
+      visibility: visible;
+      box-sizing: border-box;
+      line-height: 1.1;
+      color: rgb(12, 12, 12);
+      font-size: 14px;
+      font-family: Lato, Helvetica, Arial, sans-serif;
+      font-weight: 700;
+  }
+  .description{
+    font-size: 8px;
+  }
+  img[src*='project2'] {
+    height: 300px;
+    width: 200px;
+    top: 100px;
+    text-size-adjust: 50%;
+    visibility: visible;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+    line-height: 1;
+    margin-left:1px;
+    margin-top: 4%;
+ 
+  }
+  .project-align{
+    flex-direction: column;
+    margin-left: -40px;
+ 
+  }
+ 
+  h2{text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    visibility: visible;
+    box-sizing: border-box;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.58;
+    font-weight: 400;
+    line-height: 1.1;
+    color: rgb(56, 7, 102);
+    font-size: 27px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    text-decoration-color: rgb(193, 221, 35);
+   
+   
+    }
+ 
+  img[src*='project1'] {
+    height: 300px;
+    width: 200px;
+    top: 100px;
+    text-size-adjust: 100%;
+    visibility: visible;
+    box-sizing: border-box;
+    border-width: 0px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    line-height: 1;
+    margin-left:1px;
+  }
+  .text{
+    margin-left: 7px;
+    margin-top: 4%;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-size:8px;
+    width:200px;
+  }
+  .text1{
+    margin-left: 7px;
+    margin-top: 4%;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-size:8px;
+    width:200px;
+   
+ 
+  }
+  h4{
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    visibility: visible;
+    box-sizing: border-box;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.1;
+    color: rgb(56, 7, 102);
+    font-size: 27px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    text-decoration-color: rgb(193, 221, 35);
+    margin-left:-130px;
+  }
+ 
+ 
+  .extra-flow{
+    flex-direction: column;
+    margin-left: -40px;
+    margin-right: 100px;
+   
+  }
+ 
+   table, th, td {
+      border: 1px solid;
+      color:rgb(8, 8, 8);
+      font-family: Lato, Helvetica, Arial, sans-serif;
+      height: 50px;
+      width: 200px;
+      margin-right: 100px;
+      margin-left: -30px;
+    }
+ 
+  .extra-photos{
+      height:200px;
+      width: 200px;
+  }
+ 
+  #extra-photos1{
+    height:200px;
+    width: 200px;
+    margin-top: 6%;
+ 
+}
+ 
+  .txt{
+   margin-top: 4%;
+   font-family: Lato, Helvetica, Arial, sans-serif;
+   line-height: 1.58;
+  }
+ 
+.form{
+  text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: rgb(85, 85, 85);
+  visibility: visible;
+  box-sizing: border-box;
+  align-items: center;
+  margin-left: -35px;
+  margin-right: 100px;
+}
+ 
+input[type="text"] {
+  width: 200px;
+  height: 30px;
+}
+ 
+textarea{
+  width: 200px;
+  height: 200px;
+ 
+ 
+  }
+@media screen and (max-width: 320px){
+
+  nav .menu-btn i{
+  display: block;
+}
+  #click:checked ~ .menu-btn i:before{
+  content: "\f00d";
+}
+
+nav{
+  padding: 0 20px 0 30px;
+}
+
+ #click:checked ~ ul{
+  left: 0;
+  font-size: 8px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+}
+
+nav li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+   
+
+}
+
+header {
+    background-color: rgb(56, 7, 102);
+    height: 200px;
+
+  }
+
+nav ul li a{
+  /*width: 40px;*/
+  margin-left: -2px;
+  display: block;
+  font-size: 16px;
+}
+
+
+
+
+}
+
+
+@media screen and (max-width: 320px){
+  .boxed {
+    background-color: lightgrey;
+    width: 320px;
+    height:100px;
+    padding: 30px;
+    margin: 30px;
+    font-size: larger;
+    position: 100%;
+    right:300px;
+    display:flex;
+    height:100%;
+    margin-top:100px;
+    margin-left:10%;
+  }
+ 
+
+  #myBio{
+      color:rgb(56, 7, 102);
+      font-size:10px;
+   
+  }
+
+  .Firstboxed{
+    background-color: lightgrey;
+    width: 320px;
+    padding: 30px;
+    margin: 30px;
+    font-size: larger;
+    position: 100%;
+    right:300px;
+    display:flex;
+    height:100%;
+    margin-top:100px;
+    margin-left:10%;
+
+  }
+  #header
+  {
+  width:50%;
+  margin-top:-15px;
+  padding:0px;
+  text-align:center;
+  height:30px;
+  line-height:30px;
+  }
+  img[src*='bio'] {
+    height: 100px;
+    width: 100px;
+    float:right;
+    top: 100px;
+    text-size-adjust: 100%;
+    visibility: visible;
+    box-sizing: border-box;
+    border-width: 0px;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    line-height: 1;
+    margin-left: 200px;
+  }
+
+  .boxImage{
+      width:20%;
+  }
+.boxText{
+    width:400px;
+    height:50px;
+    line-height: 1.3;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-size: 8px;
+    align-content: space-between;
+    margin-top: -5%;
+  }
+.cardBlock{
+  text-size-adjust: 50%;
+  -webkit-tap-highlight-color: transparent;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  line-height: 1;
+  color: rgb(85, 85, 85);
+  visibility: visible;
+  box-sizing: border-box;
+  padding: 4rem;
+  height:100px,
+  }  
+
+  .education-experience{
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    line-height: 1.58;
+    color: rgb(12, 12, 12);
+    visibility: visible;
+    box-sizing: border-box;
+}
+.date{
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    line-height: 1.58;
+    color: rgb(12, 12, 12);
+    visibility: visible;
+    box-sizing: border-box;
+    font-size: 16;
+}
+
+.school-name{
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    visibility: visible;
+    box-sizing: border-box;
+    line-height: 1.1;
+    color: rgb(12, 12, 12);
+    font-size: 14px;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+.description{
+  font-size: 8px;
+}
+img[src*='project2'] {
+  height: 300px;
+  width: 200px;
+  top: 100px;
+  text-size-adjust: 50%;
+  visibility: visible;
+  box-sizing: border-box;
+  max-width: 100%;
+  height: auto;
+  line-height: 1;
+  margin-left:1px;
+  margin-top: 4%;
+
+}
+.project-align{
+  flex-direction: column;
+  margin-left: -40px;
+
+}
+
+h2{text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  visibility: visible;
+  box-sizing: border-box;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.58;
+  font-weight: 400;
+  line-height: 1.1;
+  color: rgb(56, 7, 102);
+  font-size: 27px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  text-decoration-color: rgb(193, 221, 35);
+ 
+ 
+  }
+
+img[src*='project1'] {
+  height: 300px;
+  width: 200px;
+  top: 100px;
+  text-size-adjust: 100%;
+  visibility: visible;
+  box-sizing: border-box;
+  border-width: 0px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  line-height: 1;
+  margin-left:1px;
+}
+.text{
+  margin-left: 7px;
+  margin-top: 4%;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size:8px;
+  width:200px;
+}
+.text1{
+  margin-left: 7px;
+  margin-top: 4%;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size:8px;
+  width:200px;
+ 
+
+}
+h4{
+  text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  visibility: visible;
+  box-sizing: border-box;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.1;
+  color: rgb(56, 7, 102);
+  font-size: 27px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  text-decoration-color: rgb(193, 221, 35);
+  margin-left:-130px;
+}
+
+
+.extra-flow{
+  flex-direction: column;
+  margin-left: -40px;
+  margin-right: 100px;
+ 
+}
+
+ table, th, td {
+    border: 1px solid;
+    color:rgb(8, 8, 8);
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    height: 50px;
+    width: 200px;
+    margin-right: 100px;
+    margin-left: -30px;
+  }
+
+.extra-photos{
+    height:200px;
+    width: 200px;
+}
+
+#extra-photos1{
+  height:200px;
+  width: 200px;
+  margin-top: 6%;
+
+}
+
+.txt{
+ margin-top: 4%;
+ font-family: Lato, Helvetica, Arial, sans-serif;
+ line-height: 1.58;
+}
+
+.form{
+text-size-adjust: 100%;
+-webkit-tap-highlight-color: transparent;
+font-family: Lato, Helvetica, Arial, sans-serif;
+font-size: 16px;
+color: rgb(85, 85, 85);
+visibility: visible;
+box-sizing: border-box;
+align-items: center;
+margin-left: -35px;
+margin-right: 100px;
+}
+
+input[type="text"] {
+width: 200px;
+height: 30px;
+}
+
+textarea{
+width: 200px;
+height: 200px;
+
+}
+
+@media screen and (max-width: 768px) {  
+  .boxed {
+    background-color: lightgrey;
+    width: 300px;
+    height:100px;
+    padding: 30px;
+    margin: 30px;
+    font-size: larger;
+    position: 100%;
+    right:300px;
+    display:flex;
+    height:100%;
+    margin-top:100px;
+    margin-left:10px;
+  }
+ 
+
+  #myBio{
+      color:rgb(56, 7, 102);
+      font-size:10px;
+   
+  }
+
+  .Firstboxed{
+    background-color: lightgrey;
+    width: 320px;
+    padding: 30px;
+    margin: 30px;
+    font-size: larger;
+    position: 100%;
+    right:300px;
+    display:flex;
+    height:100%;
+    margin-top:100px;
+    margin-left:10%;
+
+  }
+  #header
+  {
+  width:50%;
+  margin-top:-15px;
+  padding:0px;
+  text-align:center;
+  height:30px;
+  line-height:30px;
+  }
+  img[src*='bio'] {
+    height: 100px;
+    width: 100px;
+    float:right;
+    top: 100px;
+    text-size-adjust: 100%;
+    visibility: visible;
+    box-sizing: border-box;
+    border-width: 0px;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    line-height: 1;
+    margin-left: 200px;
+  }
+
+  .boxImage{
+      width:20%;
+  }
+.boxText{
+    width:400px;
+    height:50px;
+    line-height: 1.3;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-size: 8px;
+    align-content: space-between;
+    margin-top: -5%;
+  }
+.cardBlock{
+  text-size-adjust: 50%;
+  -webkit-tap-highlight-color: transparent;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  line-height: 1;
+  color: rgb(85, 85, 85);
+  visibility: visible;
+  box-sizing: border-box;
+  padding: 4rem;
+  height:100px,
+  }  
+
+  .education-experience{
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    line-height: 1.58;
+    color: rgb(12, 12, 12);
+    visibility: visible;
+    box-sizing: border-box;
+}
+.date{
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    line-height: 1.58;
+    color: rgb(12, 12, 12);
+    visibility: visible;
+    box-sizing: border-box;
+    font-size: 16;
+}
+
+.school-name{
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    visibility: visible;
+    box-sizing: border-box;
+    line-height: 1.1;
+    color: rgb(12, 12, 12);
+    font-size: 14px;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+.description{
+  font-size: 8px;
+}
+img[src*='project2'] {
+  height: 300px;
+  width: 200px;
+  top: 100px;
+  text-size-adjust: 50%;
+  visibility: visible;
+  box-sizing: border-box;
+  max-width: 100%;
+  height: auto;
+  line-height: 1;
+  margin-left:1px;
+  margin-top: 4%;
+
+}
+.project-align{
+  flex-direction: column;
+  margin-left: -40px;
+
+}
+
+h2{text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  visibility: visible;
+  box-sizing: border-box;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.58;
+  font-weight: 400;
+  line-height: 1.1;
+  color: rgb(56, 7, 102);
+  font-size: 27px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  text-decoration-color: rgb(193, 221, 35);
+ 
+ 
+  }
+
+img[src*='project1'] {
+  height: 300px;
+  width: 200px;
+  top: 100px;
+  text-size-adjust: 100%;
+  visibility: visible;
+  box-sizing: border-box;
+  border-width: 0px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  line-height: 1;
+  margin-left:1px;
+}
+.text{
+  margin-left: 7px;
+  margin-top: 4%;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size:8px;
+  width:200px;
+}
+.text1{
+  margin-left: 7px;
+  margin-top: 4%;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size:8px;
+  width:200px;
+ 
+
+}
+h4{
+  text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  visibility: visible;
+  box-sizing: border-box;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.1;
+  color: rgb(56, 7, 102);
+  font-size: 27px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  text-decoration-color: rgb(193, 221, 35);
+  margin-left:-130px;
+}
+
+
+.extra-flow{
+  flex-direction: column;
+  margin-left: -40px;
+  margin-right: 100px;
+ 
+}
+
+ table, th, td {
+    border: 1px solid;
+    color:rgb(8, 8, 8);
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    height: 50px;
+    width: 200px;
+    margin-right: 100px;
+    margin-left: -30px;
+  }
+
+.extra-photos{
+    height:200px;
+    width: 200px;
+}
+
+#extra-photos1{
+  height:200px;
+  width: 200px;
+  margin-top: 6%;
+
+}
+
+.txt{
+ margin-top: 4%;
+ font-family: Lato, Helvetica, Arial, sans-serif;
+ line-height: 1.58;
+}
+
+.form{
+text-size-adjust: 100%;
+-webkit-tap-highlight-color: transparent;
+font-family: Lato, Helvetica, Arial, sans-serif;
+font-size: 16px;
+color: rgb(85, 85, 85);
+visibility: visible;
+box-sizing: border-box;
+align-items: center;
+margin-left: -35px;
+margin-right: 100px;
+}
+
+input[type="text"] {
+width: 200px;
+height: 30px;
+}
+
+textarea{
+width: 200px;
+height: 200px;
+
+
+}
